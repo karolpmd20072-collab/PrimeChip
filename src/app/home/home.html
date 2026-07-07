@@ -1,0 +1,28 @@
+<main class="container-promocoes">
+  <h2 class="titulo-secao">{{ titulo }}</h2>
+
+  <p *ngIf="mensagem" style="color:white; text-align:center; font-size:20px;">
+    {{ mensagem }}
+  </p>
+
+  <div class="grid-produtos">
+    <div class="card-produto" *ngFor="let produto of produtos">
+      <span class="badge-desconto">-15%</span>
+
+      <div class="produto-imagem">
+        <img [src]="produto.imagem" [alt]="produto.alt">
+      </div>
+
+      <div class="produto-info">
+        <h3 class="produto-titulo">{{ produto.nome }}</h3>
+        <p class="preco-antigo">{{ produto.antigo }}</p>
+        <p class="preco-novo">{{ produto.novo }}</p>
+        <p class="preco-metodo">no PIX</p>
+
+        <button class="btn-comprar" (click)="mostrarMensagem(produto.nome)">
+          Saiba Mais!
+        </button>
+      </div>
+    </div>
+  </div>
+</main>

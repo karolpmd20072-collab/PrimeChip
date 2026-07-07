@@ -1,0 +1,10 @@
+<main class="carrinho-container">
+  <h2>Carrinho de Compras</h2>
+
+  <div class="item-carrinho" *ngFor="let item of itens">
+    <h3>{{ item.nome }}</h3>
+    <p>{{ item.preco }}</p>
+  </div>
+
+  <button>Finalizar Compra</button>
+</main>

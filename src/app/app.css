@@ -1,0 +1,6 @@
+:host {
+  display: block;
+  background-color: #2f3030;
+  min-height: 100vh;
+  font-family: 'Oswald', sans-serif;
+}

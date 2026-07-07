@@ -1,0 +1,27 @@
+<main class="login-container">
+  <section class="login-card">
+
+    <h2>Conecte-se</h2>
+
+    <input
+      type="email"
+      placeholder="Digite seu e-mail"
+      [(ngModel)]="email"
+    >
+
+    <input
+      type="password"
+      placeholder="Digite sua senha"
+      [(ngModel)]="senha"
+    >
+
+    <button (click)="entrar()">
+      Entrar
+    </button>
+
+    <p *ngIf="mensagem" style="margin-top:20px; color:#4f83f5; font-weight:bold;">
+      {{ mensagem }}
+    </p>
+
+  </section>
+</main>
