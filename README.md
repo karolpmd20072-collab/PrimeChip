@@ -2,6 +2,13 @@
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 22.0.5.
 
+## Authors
+
+Erik Vieira da Silva
+Karol Paganini Medeiros Davison
+Gabriel Alexandre Pinto
+Kayk Alves
+
 ## Development server
 
 To start a local development server, run:

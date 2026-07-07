@@ -1,23 +1,23 @@
-<header class="menu-principal">
+<header class="header">
+
   <div class="logo">
-    <img src="/assets/imagens/Prime.png" alt="LOGO DA LOJA">
+    <img src="assets/imagens/Prime.png" alt="LOGO DA LOJA">
   </div>
 
-  <input type="checkbox" id="menu-toggle" class="menu-checkbox">
+  <nav class="menu">
 
-  <label for="menu-toggle" class="menu-icone">
-    <span></span>
-    <span></span>
-    <span></span>
-  </label>
+    <a routerLink="/" routerLinkActive="ativo">
+      HOME
+    </a>
 
-  <nav class="links">
-    <ul>
-      <li><a routerLink="/">HOME</a></li>
-      <li><a routerLink="/carrinho">CARRINHO</a></li>
-      <li class="botao-login">
-        <a routerLink="/login">CONECTE-SE</a>
-      </li>
-    </ul>
+    <a routerLink="/carrinho" routerLinkActive="ativo">
+      CARRINHO
+    </a>
+
+    <a routerLink="/login" class="btn-login" routerLinkActive="ativo">
+      CONECTE-SE
+    </a>
+
   </nav>
+
 </header>
