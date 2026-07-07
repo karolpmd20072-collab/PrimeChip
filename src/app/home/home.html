@@ -1,3 +1,4 @@
+<app-header></app-header>
 <main class="container-promocoes">
   <h2 class="titulo-secao">{{ titulo }}</h2>
 
@@ -17,7 +18,7 @@
         <h3 class="produto-titulo">{{ produto.nome }}</h3>
         <p class="preco-antigo">{{ produto.antigo }}</p>
         <p class="preco-novo">{{ produto.novo }}</p>
-        <p class="preco-metodo">no PIX</p>
+        <p class="preco-metodo">a vista</p>
 
         <button class="btn-comprar" (click)="mostrarMensagem(produto.nome)">
           Saiba Mais!

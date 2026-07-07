@@ -1,0 +1,44 @@
+/* Lista de links da navegação */
+.links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-right: 35px;
+    display: flex;
+    align-items: center; 
+    gap: 40px;
+}
+
+/* Estilização padrão de todos os links */
+.links a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    transition: all 0.2s;
+}
+
+.links a:hover {
+    color: #ffffff;
+}
+
+/* --- DESTAQUE DO BOTAO LOGIN --- */
+.links .botao-login {
+    margin-left: 60px; 
+}
+
+.links .botao-login a {
+    background-color: #2f3030; 
+    color: #ffffff;            
+    padding: 8px 20px;         
+    border-radius: 12px;       
+    border: 2px solid #000000;
+    font-size: 18px;
+}
+
+.links .botao-login a:hover {
+    background-color: #ffffff;
+    color: #2f3030;
+    border-color: #ffffff;
+}
